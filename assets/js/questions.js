@@ -1,7 +1,7 @@
 var questions = [
     {
       title: 'Which of these denotes a spread/rest operator?',
-      choices: ['¯\\_(ツ)_/¯', '===', '...', '!'],
+      choices: ['===', '...', '!', '¯\\_(ツ)_/¯'],
       answer: '...', 
     },
     {
