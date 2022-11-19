@@ -1,46 +1,140 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Coding Quiz</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alex Springer</title>
+        <meta name="description" content="width=device-width, initial-scale=1.0"">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1>Alex</h1>
+            <nav>
+              <a href="#about">About</a>
+              <a href="#work">Work</a>
+              <a href="">Resume</a>
+              <a href="#contact">Contact</a>
+              
+            </nav>
+          </header>
 
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
-
-  <body>
-    <div class="scores"><a href="highscores.html">View Highscores</a></div>
-
-    <div class="timer">Time: <span id="time">0</span></div>
-
-    <div class="wrapper">
-      <div id="start-screen" class="start">
-        <h1>Coding Quiz Challenge</h1>
-        <p>
-         Answer trivia questions about JavaScript within time limit. All incorrect answers will decrease the clock time by 15 seconds.
-        </p>
-        <button id="start">Start Quiz</button>
-      </div>
-
-      <div id="questions" class="hide">
-        <h2 id="question-title"></h2>
-        <div id="choices" class="choices"></div>
-      </div>
-
-      <div id="end-screen" class="hide">
-        <h2>Finished!</h2>
-        <p>Your score is <span id="final-score"></span>.</p>
-        <p>
-          Enter initials: <input type="text" id="initials" max="3" />
-          <button id="submit">Submit</button>
-        </p>
-      </div>
-
-      <div id="feedback" class="feedback hide"></div>
-    </div>
-
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/main.js"></script>
-  </body>
+          <section class="hero-banner">
+            <div>
+              <h2>Web Developr Guy</h2>
+            </div>
+          </section>
+        
+          <main class="page-wrapper">
+            <!-- about me -->
+            <section class="page-section" id="about">
+              <h2>About Me</h2>
+              <div>
+                <p>
+                  You can walk on the water, drown in the sand
+                  you can fly off a mountaintop if anybody can
+                  run away, run away--it's the restless age
+                  look away, look away--you can turn the page
+                  hey, buddy, would you like to buy a watch real cheap
+                  here on the street
+                  I got six on each arm and two more round my feet
+                  life is a carnival--believe it or not
+                  life is a carnival--two bits a shot
+                  
+                </p>
+                <p>
+                  Don't you know
+                  'bout a zillion years ago
+                  some star sneezed, now they're paging you in reception
+                  don't you know
+                  Jack and Jill-ion years ago
+                  some dinosaur dropped the pail when it saw our reflection
+                  don't you know
+                  we're all light
+                  yeah, I read that someplace
+                  don't you know
+                  we're all light
+                  yeah, I read that someplace
+                  so you won't mind if I kiss you now
+                  before indecision can bite
+                  don't you know in this new Dark Age
+                  we're all light
+                </p>
+              </div>
+            </section>
+        
+            <!-- portfolio container -->
+            <section class="page-section" id="work">
+              <h2>Work</h2>
+              <div class="flex-container">
+        
+                <a href="#" class="flex-item surf-report">
+                  <div>
+                    <h3>Surf Report</h3>
+                    <span>MERN Stack</span>
+                  </div>
+                </a>
+                
+                <a href="#" class="flex-item led-wall">
+                  <div>
+                    <h3>LED Wall</h3>
+                    <span>Node/IoT</span>
+                  </div>
+                </a>
+                <a href="#" class="flex-item react-calc">
+                  <div>
+                    <h3>Calculator</h3>
+                    <span>React/JavaScript/CSS</span>
+                  </div>
+                </a>
+        
+                <a href="#" class="flex-item pastel-puzzles">
+                  <div>
+                    <h3>Pastel Puzzels</h3>
+                    <span>MERN Stack</span>
+                  </div>
+                </a>
+        
+            
+                <a href="#" class="flex-item run-buddy">
+                  <div>
+                    <h3>Run Buddy</h3>
+                    <span>HTML/CSS</span>
+                  </div>
+                </a>
+        
+              </div>
+            </section>
+        
+            <!-- contact -->
+            <section class="page-section contact" id="contact">
+              <h2>Contact Me</h2>
+              <div>
+                <address>
+                  <a href="tel:+19023296">303.902.3296</a>
+                  <a href="mailto:alex.springer@gmail.com">alex.springer@gmail.com</a>
+                  <a href="https://github.com/aleji0">GitHub</a>
+                  <a href="twitter.com">Twitter</a>
+                  <a href="https://tidal.com/browse/user/184457253">Tidal</a>
+                </address>
+              </div>
+            </section>
+          </main>
+        </body>
+        
+        </html>
+        <script src="" async defer></script>
+    </body>
 </html>
