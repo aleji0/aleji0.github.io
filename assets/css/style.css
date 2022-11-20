@@ -6,7 +6,7 @@
 /* brand color palette */
 :root {
   --primary: rgb(63, 107, 165);
-  --secondary: rgb(228, 209, 0);
+  --secondary: rgb(200, 185, 16);
   --tertiary: rgb(16, 36, 96);
   --light: rgba(238, 238, 247, 1);
   --dark: rgba(28, 29, 33, 1);
